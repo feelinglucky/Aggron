@@ -1,0 +1,25 @@
+{
+  "stylesheets" : {
+    "default" : [
+      "style.css"
+    ],
+    
+    "page" : [
+    
+    ],
+    
+    "post" : [
+    
+    ],
+    
+    "widgets" : {
+
+    }
+  },
+  
+  "javascripts" : {
+    "default" : [
+
+    ]
+  }
+}
