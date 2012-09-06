@@ -2,8 +2,9 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
-production_url : http://sample.com
+theme: 'gracecode'
+production_url: 'http://graceco.de'
+base_path: '/wiki'
 
 posts:
   permalink: /:categories/:title/

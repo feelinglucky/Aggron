@@ -1,11 +1,14 @@
-title : Blog Title
-tagline: Blog Tagline
+title: 無標題文檔
+tagline: 
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : 明城
+  email : lucky@gracecode.com
+  github : feelinglucky
+  twitter : feelinglucky
+  feedburner : gracecode
+
+urls: .
+   
 
 navigation :
   - archive.html
@@ -13,4 +16,3 @@ navigation :
   - categories.html
   - pages.html
   - about.md
-  
