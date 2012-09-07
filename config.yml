@@ -2,7 +2,7 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme: 'gracecode'
+theme: 'minimalism'
 production_url: 'http://graceco.de'
 base_path: '/wiki'
 

@@ -1,18 +1,9 @@
 title: 無標題文檔
 tagline: 
-author :
-  name : 明城
-  email : lucky@gracecode.com
-  github : feelinglucky
-  twitter : feelinglucky
-  feedburner : gracecode
-
+author:
+    name: 明城
+    email: lucky@gracecode.com
+    github: feelinglucky
+    twitter: feelinglucky
+    feedburner: gracecode
 urls: .
-   
-
-navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
-  - about.md
