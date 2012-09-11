@@ -13,24 +13,20 @@
         <meta name="author" content="{{site.author.name}}" />
     </head>
     <body class="bg">
-        <div id="container">
-            <header>
-                <h1 id="logo"><a href="{{site.urls}}">{{site.title}}</a></h1>
-            </header>
-            <div id="body">
-                <div class="content">
-                    {{{ content }}}
-                </div>
+        <header>
+            <h1 id="logo"><a href="{{site.urls}}">{{site.title}}</a></h1>
+        </header>
+        <div id="body">
+            <div class="content">
+                {{{ content }}}
             </div>
         </div>
         <footer>
-        <div class="container">  
-            <div id="FooterTwo"> &copy; 2012 {{site.title}} <a href="">[index]</a></div>
-            <div id="FooterTree">Design by <a
-                    href="http://www.marijazaric.com">marija zaric</a>,
-                proudly powered by <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>.
+            <div id="copyright">
+                Powered by <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>.
             </div> 
-        </div>
+            <div id="footnote"> &copy; 2012 {{site.title}} <a
+                    href="{{site.urls}}/index/">[index]</a></div>
         </footer>
     </body>
 </html>
