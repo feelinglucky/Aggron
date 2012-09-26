@@ -28,6 +28,20 @@ a img {
    border: none
 }
 
+a,
+a:link {
+    color: #c33;
+    text-decoration: none;
+    padding: 0 .2em;
+}
+
+a:active,
+a:hover {
+    border-bottom: 1px dashed #c33;
+}
+
+
+
 aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {display: block}
 
@@ -41,7 +55,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Vollkorn', Helvetica, serif;
 	font-size: 16px;
 	color: #575757;
 	margin: 0 0 1px;
@@ -51,7 +65,7 @@ body {
 }
 
 #body {
-    width: 800px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -63,28 +77,34 @@ a, p a {
 	text-decoration: underline;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    text-rendering: optimizelegibility;
+}
+
 h1 {
-	font-size: 2em;
-	color: #cc3333;
+	font-size: 1.4em;
 }
 
 h2 {
-	font-size: 15px;
+	font-size: 1.3em;
 	line-height: 1.8;
 }
 	
 h3 {
-	font-size: 18px;
+	font-size: 1.2em;
 	line-height: 0.9;
-	color: #cc3333;
 }
 
 h4 {
-	font-size: 14px;
+	font-size: 1.1em;
 	line-height: 0.9;
-	color: #CC3333;
 }
 
+h5 {
+	font-size: 1.1em;
+}
 
 /**************
  * Header
@@ -118,27 +138,35 @@ header h1#logo a:hover {
     text-shadow: 0 -2px 2px #999;
     text-decoration: none;
 }
+
+em, strong {
+    font-weight: bold;
+    color: #c33;
+    font-style: normal;
+}
 	
+i[class^="icon-"] {
+    padding-right: .3em;
+}
+
 	
 /***************************************************
 			        GALLERY
 ***************************************************/
 
 .article {
-    margin: 2em 0 3em 0;
-    padding: 0 0 0 3em;
     position: relative;
+    margin-bottom: 2em;
 }
 
+.article h1,
 .article h2,
 .article h3,
-.article h4 {
-    border-bottom: 1px solid #cc3333;
-    border-left: 2px solid #cc3333;
-    color: #cc3333;
-    padding: 0 .5em;
-    font-weight: bold;
-    margin: 1.2em 0 1em 0;
+.article h4,
+.article h5 {
+    padding: 5px 0;
+    font-weight: normal;
+    margin: 1em 0 .5em 0;
 }
 
 .article h1 {
@@ -162,12 +190,14 @@ header h1#logo a:hover {
     margin-bottom: .8em;
     line-height: 1.5em;
     color: #333;
-    text-align: justify;
 }
 
-.article a,
-.article a:link {
-    color: #cc3333;
+.index img,
+.article p > img {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: .2em;
+    background: #fff;
 }
 
 .article pre,
@@ -214,5 +244,103 @@ footer #footnote {
 
 footer #copyright {
     float: right;
+}
+
+
+/*********
+ * index page
+ */
+
+.index {
+
+}
+
+
+.index img {
+    padding: 0px;
+}
+
+.index .about,
+.index .projects,
+.index .resources {
+    margin-bottom: 1em;
+}
+
+.index .about img {
+    border: none;
+}
+
+.index .about img[alt="我的照片"] {
+    border: 1px solid #ccc;
+    float: right;
+    width: 90px;
+    height: 90px;
+    padding: .3em;
+    margin: 0 0 2em 2em;
+}
+
+.index h2 {
+
+}
+
+.index h2, .index h3,
+.index dt {
+    color: #c33;
+}
+
+.index hr {
+    width: 30%;
+    display: block;
+    margin: 2em auto;
+    border: 1px solid #eaeaea;
+    height: 1px;
+}
+
+
+.index .projects {
+
+}
+
+.index .resources ul,
+.index .projects ul {
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    margin: 1em 0;
+    *zoom: 1;
+}
+
+.index .projects ul li {
+    width: 30%;
+    float: left;
+    min-height: 150px;
+    margin: 0 1.5em 0 0;
+}
+
+.index .projects ul li h3 {
+    margin: 1em 0;
+}
+
+.index .projects ul li p {
+    text-align: justify;
+}
+
+
+.index .resources {
+
+}
+
+.index .resources h2{
+    margin-bottom: 1em;
+}
+
+.index .resources ul {
+    list-style: square;
+    list-style-position:inside;
+}
+
+.index .resources ul li {
+    width: 50%;
+    float: left;
 }
 

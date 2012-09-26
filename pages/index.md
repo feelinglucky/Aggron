@@ -1,10 +1,6 @@
 ---
 title: 首頁
-description:
+layout: index
+description: 网站的首页
 ---
 
-# Start
-
-[Ruhoh]({{site.urls}}/about/index.html) is all about the command-line.
-
-</p>
