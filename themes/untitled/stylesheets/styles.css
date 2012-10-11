@@ -173,6 +173,11 @@ i[class^="icon-"] {
     font-size: 1.4em;
 }
 
+.article h1:first-child {
+    text-align: right;
+    font-size: 1.8em;
+}
+
 .article h2 {
     font-size: 1.3em;
 }
@@ -186,10 +191,20 @@ i[class^="icon-"] {
     font-size: 1em;
 }
 
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+    color: #c33;
+}
+
 .article p {
-    margin-bottom: .8em;
+    margin: .5em 0;
     line-height: 1.5em;
     color: #333;
+    text-indent: 2em;
 }
 
 .index img,
@@ -202,9 +217,16 @@ i[class^="icon-"] {
 
 .article pre,
 .article code {
-    font-size: .8em;
+    font-size: 1em;
     padding: .5em;
-    margin-left: 2em;
+    margin: 0em 2em;
+    background: #fff;
+}
+
+.article p code,
+.article pre code {
+    margin: 0;
+    padding: 0;
 }
 
 .article ul,

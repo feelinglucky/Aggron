@@ -1,6 +1,6 @@
 ---
 title: VimWiki 使用笔记
-layout: index
+layout: page
 ---
 
 ## 更新记录
@@ -233,3 +233,5 @@ encoding 指定的编码）。
 
     let g:vimwiki_timestamp_format = '%Y-%m-%d %H:%M:%S'
 
+
+``-- EOF--``
