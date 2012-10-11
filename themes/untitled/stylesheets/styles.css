@@ -140,7 +140,7 @@ header h1#logo a:hover {
 }
 
 em, strong {
-    font-weight: bold;
+    font-weight: normal;
     color: #c33;
     font-style: normal;
 }
@@ -155,8 +155,9 @@ i[class^="icon-"] {
 ***************************************************/
 
 .article {
+    width: 800px;
     position: relative;
-    margin-bottom: 2em;
+    margin: 0 auto 2em auto;
 }
 
 .article h1,
@@ -166,7 +167,7 @@ i[class^="icon-"] {
 .article h5 {
     padding: 5px 0;
     font-weight: normal;
-    margin: 1em 0 .5em 0;
+    margin: 1.2em 0 .5em 0;
 }
 
 .article h1 {
@@ -176,11 +177,13 @@ i[class^="icon-"] {
 .article h1:first-child {
     text-align: right;
     font-size: 1.8em;
+    border: 0;
 }
 
 .article h2 {
     font-size: 1.3em;
 }
+
 .article h3 {
     font-size: 1.2em;
 }
@@ -210,17 +213,21 @@ i[class^="icon-"] {
 .index img,
 .article p > img {
     margin: 0 auto;
-    border: 1px solid #ccc;
-    padding: .2em;
-    background: #fff;
+    border: 1px solid #eaeaea;
+    padding: .3em;
+    border-radius: 3px;
 }
 
 .article pre,
 .article code {
-    font-size: 1em;
+    font-size: .9em;
     padding: .5em;
     margin: 0em 2em;
-    background: #fff;
+}
+
+.article > pre {
+    background: #f6f6f6;
+    border-radius: 3px;
 }
 
 .article p code,

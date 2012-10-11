@@ -1,0 +1,9 @@
+<footer>
+    <div id="copyright">
+        Powered by <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>.
+    </div> 
+    <div id="footnote"> &copy; 2012 {{site.title}} 
+        <a href="{{site.urls}}/sitemap.html">[sitemap]</a>
+        <a href="{{site.urls}}/rss.xml">[rss]</a>
+    </div>
+</footer>

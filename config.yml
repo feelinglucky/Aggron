@@ -3,13 +3,14 @@
 
 RuhohSpec: '1.0'
 theme: 'untitled'
-production_url: 'http://graceco.de'
-base_path: '/wiki'
+production_url: 'http://aggron'
+base_path: '/'
 
 posts:
-  permalink: /:categories/:title/
+  permalink: /posts/:categories/:title/
   summary_lines: 20
   latest: 10
 
 pages:
-  permalink: 'pretty'
+  #permalink: 'pretty'
+
