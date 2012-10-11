@@ -7,7 +7,7 @@ production_url: 'http://aggron'
 base_path: '/'
 
 posts:
-  permalink: /posts/:categories/:title/
+  permalink: /posts/:filename/
   summary_lines: 20
   latest: 10
 
