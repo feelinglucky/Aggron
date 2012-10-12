@@ -1,9 +1,29 @@
 <footer>
     <div id="copyright">
-        Powered by <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>.
+        <p>
+            Proudly powered by
+            <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>!
+            <br />
+            <!--
+            <a href="{{site.urls}}/rss.xml">
+                <img src="http://feeds.feedburner.com/~fc/gracecode" alt="rss count" />
+            </a> 
+            -->
+            <a href="http://www.apple.com/getamac/" title="Get a Mac" ref="nofollow"> 
+                <img src="http://localhost/mac.png" alt="Get a Mac" /> 
+            </a>
+        </p>
     </div> 
-    <div id="footnote"> &copy; 2012 {{site.title}} 
-        <a href="{{site.urls}}/archive.html">[archive]</a>
-        <a href="{{site.urls}}/rss.xml">[rss]</a>
+
+    <div id="footnote"> 
+        <p>
+            &copy; 2012 {{site.title}} 
+            <a href="{{site.urls}}/rss.xml">rss</a> 
+            <a href="{{site.urls}}/archive.html">archive</a>
+        </p>
+        <p>
+            <a href="http://www.miibeian.gov.cn" ref="nofollow" 
+                title="和谐地备了案">浙ICP备 07002356 号</a> 
+        </p>
     </div>
 </footer>

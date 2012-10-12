@@ -20,6 +20,10 @@ legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu
 	vertical-align: baseline;
 }
 
+tt, code, kbd, samp {
+    font-family: 'Courier New', 'Courier', 'Lucida Console', Monaco;
+}
+
 ol, ul {
 	list-style: none;
 }

@@ -1,26 +1,34 @@
 <div class="blog" id="blog">
     <h2><i class="icon-pencil"></i>博客</h2>
-    <ul>
-        {{# posts_latest }}
-        <li>
-            <a href="{{url}}">{{title}}</a>
-        </li>
-        {{/ posts_latest }}
-    </ul>
 
-    <ul>
-        {{# categories }}
-        <li>
-            <a href="{{ url }}">{{ name }} <span>({{ count }})</span></a>
-        </li>
-        {{/ categories }}
-    </ul>
+    <p>
+    这里的主要内容是我的流水帐，主要记录生活、新知、
+    以及技术方面等等其他任何我觉得的有趣的东西。
+    
+    如果我不是太懒的话，会时常更新这里的内容。不过，您可能无法添加博客评论，<a
+    href="{{site.urls}}/why-blog-no-need-comments.html">因为我关闭了这个功能</a>。
+    </p>
 
-    <ul>
-        {{# tags }}
-        <li>
-            <a href="{{ url }}">{{ name }} <span>{{ count }}</span></a>
-        </li>
-        {{/ tags }}
-    </ul>
+    <div class="latest">
+        <h3>最新文章</h3>
+        <ul>
+            {{# posts_latest }}
+            <li>
+                <a href="{{url}}">{{title}}</a>
+            </li>
+            {{/ posts_latest }}
+            <li><a href="{{ site.urls }}/archive.html">显示更多 &raquo;</a></li>
+        </ul>
+    </div>
+    <div class="categories">
+        <h3>分类</h3>
+        <ul>
+            {{# categories }}
+            <li>
+                <a href="{{ url }}">{{ name }} <span>({{ count }})</span></a>
+            </li>
+            {{/ categories }}
+        </ul>
+    </div>
 </div>
+
