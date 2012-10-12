@@ -4,7 +4,10 @@
 
 ## TODO
 
-* 导入原有博客数据
+* 导入原有博客数据（转换有问题的文章）
+    * http://aggron/posts/3026/
+    * http://aggron/posts/9/
+
 * 设定 posts 根据文章输出
 * rss 设定全文输出
 * 全部文章根据月份输出

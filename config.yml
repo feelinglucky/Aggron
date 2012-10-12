@@ -9,7 +9,7 @@ base_path: '/'
 posts:
   permalink: /posts/:filename/
   summary_lines: 20
-  latest: 10
+  latest: 5
 
 pages:
   #permalink: 'pretty'

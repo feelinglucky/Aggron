@@ -4,6 +4,23 @@ layout : default
 
 <div class="article">
     <h1>{{ page.title }}</h1>
+    <p class="metas">{{ page.date }}</p>
+
     {{{ content }}}
+
 </div>
+
+<ul class="pagination">
+    {{# page?previous }}
+    <li class="prev"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></li>
+    {{/ page?previous }}
+
+    {{# page?next }}
+    <li class="next"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></li>
+    {{/ page?next }}
+</ul>
+
+<!--
+  {{{ comments }}}
+-->
 
