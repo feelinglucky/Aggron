@@ -12,13 +12,13 @@
         <h3 id="toc_5"><a href="http://graceco.de/motion/">Motion</a></h3>
         <p><img alt="Motion Logo" src="http://graceco.de/motion/accessory/logo-motion-200.png"></p>
         <p>这是名为 Motion 的 Javascript 动画组件。它能够帮助您不依赖任何的
-        Javascript 框架即可简单、高效地完成复杂的动画效果<a href="http://www.gracecode.com/archives/2948/">[发布说明]</a>。</p>
+        Javascript 框架即可简单、高效地完成复杂的动画效果<a href="{{site.urls}}/posts/2948/">[发布说明]</a>。</p>
         </li>
 
         <li>
         <h3 id="toc_3"><a href="http://graceco.de/url-zipper/">Url Zipper!</a></h3>
         <p>批量压缩给定的网址为短网址，方便用在微博、移动设备等情况下的分享。<a
-            href="http://www.gracecode.com/archives/2171/">[发布说明]</a></p>
+            href="{{site.urls}}/posts/2171/">[发布说明]</a></p>
         </li>
 
         <li>
@@ -29,13 +29,13 @@
         <li>
         <h3 id="toc_4"><a
                 href="https://github.com/feelinglucky/php-readability">Readability</a></h3>
-        <p>PHP 移植版本的 Readability 库<a href="http://www.gracecode.com/archives/3061/">[发布说明]</a></p>
+        <p>PHP 移植版本的 Readability 库<a href="{{site.urls}}/posts/3061/">[发布说明]</a></p>
         </li>
 
         <li>
         <h3 id="toc_6"><a href="http://graceco.de/grids/index.html">格栅系统</a></h3>
         <p>针对 950 页面宽度而定义的格栅系统布局，兼容主流绝大部分浏览器
-        <a href="http://www.gracecode.com/archives/2363/">[说明]</a>。</p>
+        <a href="{{site.urls}}/posts/2363/">[说明]</a>。</p>
         </li>
     </ul>
 </div>

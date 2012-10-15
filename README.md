@@ -1,3 +1,7 @@
+<!-- 
+    vim: set et sw=4 ts=4 sts=4 ft=markdown fdm=marker ff=unix fenc=utf8 nobomb: 
+-->
+
 # Aggron - Gracecode.com 博客源代码及资源
 
 Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
@@ -48,4 +52,3 @@ Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
 * 全部文章根据月份输出（搞定）
 * 调整页面样式，兼容 IE
 
-<!-- vim: set et sw=4 ts=4 sts=4 ft=markdown fdm=marker ff=unix fenc=utf8 nobomb: -->
