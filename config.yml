@@ -3,13 +3,13 @@
 
 RuhohSpec: '1.0'
 theme: 'untitled'
-production_url: 'http://aggron'
+production_url: 'http://static.gracecode.com'
 base_path: '/'
 
 posts:
   permalink: /posts/:filename/
   summary_lines: 20
-  latest: 5
+  latest: 12 
 
 pages:
   #permalink: 'pretty'

@@ -1,5 +1,6 @@
 <div class="about">
-    <p><img alt="我的照片" src="http://localhost/me.jpg"></p>
+    <p><img alt="我的照片"
+    src="http://files.gracecode.com/2012_10_15/1350271758.png" /></p>
     <p>Hi~，我叫「明城」也叫「手气不错」或者洋气的英文名「feelinglucky」，同
     时这也是我的 <a href="https://github.com/feelinglucky">GitHub</a>
     、 <a href="https://twitter.com/feelinglucky">Twitter</a>、
@@ -13,5 +14,5 @@
     名字，而使用繁体其实是为了「看起来更有内涵些」。</p>
 
     <p>噢，对了！如果您想联系我，可以发我邮件
-        <img alt="Email" src="http://localhost/mail.png">。</p>
+        <img alt="email" src="http://files.gracecode.com/2012_10_15/1350272009.png" />。</p>
 </div>

@@ -24,6 +24,12 @@ tt, code, kbd, samp {
     font-family: 'Courier New', 'Courier', 'Lucida Console', Monaco;
 }
 
+input {
+    padding: .5em .3em;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -355,6 +361,7 @@ footer #copyright {
     color: #c33;
 }
 
+.article hr,
 .index hr {
     width: 30%;
     display: block;
@@ -433,11 +440,15 @@ footer #copyright {
 .index .blog .latest,
 .index .blog .categories {
     float: left;
-    width: 50%;
+    width: 45%;
 }
 
 .index .blog ul {
     overflow: hidden;
+}
+
+.index .blog .categories ul {
+    margin: 1em 0 1em 2em;
 }
 
 .index .blog .categories li {
@@ -445,3 +456,25 @@ footer #copyright {
     float: left;
 }
 
+.index .blog .search {
+    padding: 1em 2em;
+}
+
+.index .blog .search p {
+    text-indent: 0;
+    padding: 0 0 .5em 0;
+}
+
+.index .blog .search input {
+    font-size: 1em;
+}
+
+.index .blog .search input[type=submit],
+.index .blog .search .submit {
+    border: none;
+    background: #c33;
+    color: #fff;
+    display: block;
+    padding: .3em 1em;
+    cursor: pointer;
+}

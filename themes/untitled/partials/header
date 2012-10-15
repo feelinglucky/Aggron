@@ -8,6 +8,7 @@
         <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/styles.css" />
         <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/font-awesome.css" />
+        <link href="{{site.urls}}/rss.xml" rel="alternate" title="RSS" type="application/rss+xml" />
         <meta name="author" content="{{site.author.name}}" />
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
