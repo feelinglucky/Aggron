@@ -50,19 +50,36 @@ function generate_category($categorys) {
 }
 
 foreach ($typecho_contents as $typecho_content)  {
+    if ($typecho_content['type'] != 'post'){
+        continue;
+    }
     $cid = $typecho_content['cid'];
     $title = $typecho_content['title'];
     $created = $typecho_content['created'];
     $text = $typecho_content['text'];
     $metas = find_relationships($cid);
 
-    preg_match_all('/(\ \\\\"[\w\.\/\d\:]+\\\\"\))/', $text, $matches);
-    //var_dump($matches); exit;
+    //var_dump($text);
+    preg_match_all('/(\ \\\".+?\\\"\))/', $text, $matches);
+    //    var_dump($matches); exit;
     if ($matches && !empty($matches[1])) {
         foreach($matches[1] as $match) {
             $text = str_replace($match, ")", $text);
         }
     }
+    $text  = str_replace("\r", "", $text);
+    $text = str_replace("&quot;", "\"", $text);
+    $text = str_replace("&gt;", ">", $text);
+    $text = str_replace("&lt;", "<", $text);
+    $text = str_replace("&amp;", "&", $text);
+
+    $text = preg_replace('/\n<pre>(.+?)<\/pre>/', "\n    $1", $text); 
+    $text = preg_replace('/\n<pre>(.+?)<\/pre>\n/s', "\n```\n$1\n```\n", $text); 
+    $text = preg_replace('/http:\/\/www\.gracecode\.com\/archives\/(\d+)\//', "{{site.urls}}/posts/$1/", $text); 
+
+
+    $title = str_replace("“", "「", $title);
+    $title = str_replace("”", "」", $title);
 
     $data = sprintf($template, 
         $title,

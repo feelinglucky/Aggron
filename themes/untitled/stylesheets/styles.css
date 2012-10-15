@@ -243,6 +243,11 @@ i[class^="icon-"] {
     margin: 0em 2em;
 }
 
+.article li pre, .article li code,
+.article p pre, .article p code {
+    margin: 0;
+}
+
 .article > pre {
     background: #f6f6f6;
     border-radius: 3px;
@@ -257,15 +262,15 @@ i[class^="icon-"] {
 .article ul,
 .article ol {
     margin: 1em 0 1em 2em;
+    list-style-position: inside;
 }
 
 .article ul {
-    list-style: all;
     list-style-type: circle;
 }
 
 .article ol {
-
+    list-style-type: decimal;
 }
  
 .pagination {
@@ -367,6 +372,14 @@ footer #copyright {
     display: block;
     margin: 2em auto;
     border: 1px solid #eaeaea;
+}
+
+.article table {
+    margin: .5em 0 .5em 2em;
+}
+
+.article table td {
+    padding: .2em .2em;
 }
 
 .index p {
