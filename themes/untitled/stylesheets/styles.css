@@ -333,7 +333,6 @@ footer #copyright {
 
 }
 
-
 .index img {
     padding: 0px;
 }
@@ -387,8 +386,12 @@ footer #copyright {
 }
 
 
-.index .projects {
-
+.index .projects,
+.index .resources,
+.index .about,
+.index .blog,
+{
+    clear: both;
 }
 
 .index .resources ul,
