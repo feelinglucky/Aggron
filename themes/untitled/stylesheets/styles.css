@@ -494,3 +494,38 @@ footer #copyright {
     padding: .3em 1em;
     cursor: pointer;
 }
+
+.tag_box {
+    list-style: none;
+    font-size: 1em;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.tag_box li {
+    background: #c33;
+    color: #fff;
+    padding: .3em .5em;
+    list-style: none;
+    border-radius: 3px;
+    opacity: .85;
+}
+
+.tag_box li:hover {
+    opacity: 1;
+}
+
+.tag_box.inline li {
+    float: left;
+    margin: .2em .5em;
+}
+
+.tag_box.inline li a:link,
+.tag_box.inline li a:hover,
+.tag_box.inline li a,
+.tag_box.inline li a:visited {
+    color: #fff;
+    display: block;
+    line-height: 1em;
+    border: none;
+}

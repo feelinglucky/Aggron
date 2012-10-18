@@ -11,18 +11,18 @@
 
 
         <li><a href="http://graceco.de/manual/cscope_vim_tutorial_zh.html">Vim/Cscope 入门指导</a>
-            <a href="{{site.urls}}/posts/316/">[说明]</a></li>
+            <a href="{{site.urls}}/posts/316.html">[说明]</a></li>
 
         <li><a
                 href="http://files.gracecode.com/2008_01_23/1201060450.pdf">(Dojo)Javascript 编码规范</a>
-            <a href="{{site.urls}}/posts/698/">[说明]</a></li>
+            <a href="{{site.urls}}/posts/698.html">[说明]</a></li>
 
         <li><a href="http://files.gracecode.com/2007_11_12/1194862747.pdf"> Slackware 的 INIT </a> <a 
-                href="{{site.urls}}/posts/93/">[说明]</a></li>
+                href="{{site.urls}}/posts/93.html">[说明]</a></li>
 
         <li>
             <a href="http://files.gracecode.com/2007_11_29/1196297960.pdf">清单式学习 VI 编辑器</a>
-            <a href="{{site.urls}}/posts/274/">[发布说明]</a>
+            <a href="{{site.urls}}/posts/274.html">[发布说明]</a>
         </li>
     </ul>
 </div>

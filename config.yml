@@ -7,7 +7,7 @@ production_url: 'http://static.gracecode.com'
 base_path: '/'
 
 posts:
-  permalink: /posts/:filename/
+  permalink: /posts/:filename.html
   summary_lines: 20
   latest: 12 
 
