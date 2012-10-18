@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap:  /archive.xml
+Sitemap:  /archive.html
 Disallow: /admin/
 Disallow: /cert/
 Disallow: /images/
