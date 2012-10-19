@@ -1,4 +1,5 @@
 title: 無標題文檔
+urls: http://static.gracecode.com
 tagline: 
 author:
     name: 明城
@@ -6,6 +7,7 @@ author:
     github: feelinglucky
     twitter: feelinglucky
     feedburner: gracecode
-urls: http://static.gracecode.com
+server:
+    file: http://files.gracecode.com
+    lab: http://graceco.de
 keywords: php,linux,javascript,android,gracecode,vim,tracker,blog,feelinglucky,明城,博客,生活,编程,代码,程序员
-

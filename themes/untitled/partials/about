@@ -1,18 +1,20 @@
+<!--
+vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
+-->
 <div class="about">
     <p><img alt="我的照片"
-    src="http://files.gracecode.com/2012_10_15/1350271758.png" /></p>
+            src="{{site.server.file}}/2012_10_15/1350271758.png" /></p>
     <p>Hi~，我叫「明城」也叫「手气不错」或者洋气的英文名「feelinglucky」，同
-    时这也是我的 <a href="https://github.com/feelinglucky">GitHub</a>
-    、 <a href="https://twitter.com/feelinglucky">Twitter</a>、
-    <a href="http://www.flickr.com/photos/feelinglucky/">Flickr</a>等服务的用户名。</p>
-    
-    <p>八零后、技术男、宁波人，现居杭州。因身材魁梧而多次被误认为是东北汉子，其实
-    作为南方人，本人直到大学毕业都还没去过北京。</p>
+        时这也是我的 <a href="https://github.com/feelinglucky">GitHub</a>
+        、 <a href="https://twitter.com/feelinglucky">Twitter</a>、
+        <a href="http://www.flickr.com/photos/feelinglucky/">Flickr</a>等服务的用户名。
+    本人八零后、技术男、宁波佬，现居杭州。</p>
 
     <p>这个站点原先的名字叫 <em>Gracecode.com</em> 以及现在叫 <em>「無標題文檔」
-    </em> 。其实两个名字都一样没啥特别的，说到底是因为我实在给它不了个非常酷的
-    名字，而使用繁体其实是为了「看起来更有内涵些」。</p>
+        </em> 。其实两个名字都一样没啥特别的，说到底是因为我实在给它不了个非常酷的
+        名字，而使用繁体其实是为了「看起来更有内涵些」。</p>
 
     <p>噢，对了！如果您想联系我，可以发我邮件
-        <img alt="email" src="http://files.gracecode.com/2012_10_15/1350272009.png" />。</p>
+        <img alt="email" src="{{site.server.file}}/2012_10_15/1350272009.png" />。</p>
 </div>
+

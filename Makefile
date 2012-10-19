@@ -1,6 +1,6 @@
 all:
 	ruhoh compile
-	rsync -rv addition/ compiled/
+	rsync -r addition/ compiled/
 
 clean:
 	rm -rf compiled/*

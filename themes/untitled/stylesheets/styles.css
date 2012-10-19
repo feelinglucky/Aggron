@@ -432,6 +432,11 @@ footer #copyright {
     margin-bottom: 1em;
 }
 
+.index .resources h3 {
+    font-size: 1.1em;
+    margin: 1em 0 1em 1em;
+}
+
 .index .blog ul,
 .index .resources ul {
     list-style: square;
