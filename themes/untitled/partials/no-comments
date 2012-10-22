@@ -1,0 +1,6 @@
+<div class="no-comments">
+    <h4><i class="icon-comments-alt"></i>
+        抱歉，博客的评论功能被关闭了（<a href="{{site.urls}}/why-my-blog-do-not-need-comments.html">详细</a>）</h4>
+    <p>如果您对这篇文章有想法，您可以通过<a href="{{site.urls}}/#about">邮件</a>、
+        <a href="{{site.author.sina}}">新浪微博</a>、<a href="{{site.author.twitter}}">Twitter</a> 等多种渠道联系到我。</p>
+</div>

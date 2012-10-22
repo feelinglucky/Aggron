@@ -4,8 +4,10 @@ tagline:
 author:
     name: 明城
     email: lucky@gracecode.com
-    github: feelinglucky
-    twitter: feelinglucky
+    github: https://github.com/feelinglucky
+    twitter: https://twitter.com/feelinglucky
+    flickr: http://www.flickr.com/photos/feelinglucky
+    sina: http://weibo.com/feelinglucky
     feedburner: gracecode
 server:
     file: http://files.gracecode.com
