@@ -37,9 +37,12 @@ Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
 
 ## 应用库
 
+* http://www.ruhoh.com
+* http://fortawesome.github.com/Font-Awesome/
 
 
 ## 感谢
+
 
 
 ## TODO

@@ -1,5 +1,6 @@
 title: 無標題文檔
 urls: http://static.gracecode.com
+description: 想不好具体的描述，就先不写了。
 tagline: 
 author:
     name: 明城
@@ -13,3 +14,4 @@ server:
     file: http://files.gracecode.com
     lab: http://graceco.de
 keywords: php,linux,javascript,android,gracecode,vim,tracker,blog,feelinglucky,明城,博客,生活,编程,代码,程序员
+
