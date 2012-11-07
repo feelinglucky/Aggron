@@ -1,10 +1,7 @@
-<!-- 
-    vim: set et sw=4 ts=4 sts=4 ft=markdown fdm=marker ff=unix fenc=utf8 nobomb: 
--->
-
 # Aggron - Gracecode.com 博客源代码及资源
 
-Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
+「无标题文档」，Gracecode.com 的静态博客源代码
+
 
 ## 历史
 
@@ -29,9 +26,6 @@ Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
 ├── tools
 │   └── dump
 └── widgets
-    ├── analytics
-    ├── comments
-    └── google_prettify
 ```
 
 
@@ -39,19 +33,13 @@ Gracecode.com 的静态博客源代码，根据 Ruhoh 工具生成和制作。
 
 * http://www.ruhoh.com
 * http://fortawesome.github.com/Font-Awesome/
-
-
-## 感谢
-
+* https://bitbucket.org/feelinglucky/aggron
 
 
 ## TODO
 
-* 导入原有博客数据，转换有问题的文章（已完成）
-    * http://aggron/posts/3026/
-    * http://aggron/posts/9/
-* 设定 posts 根据文章输出
 * rss 设定全文输出
-* 全部文章根据月份输出（搞定）
+* 设定 posts 根据文章输出
 * 调整页面样式，兼容 IE
-
+* 导入原有博客数据，转换有问题的文章（已完成）
+* 全部文章根据月份输出（搞定）
