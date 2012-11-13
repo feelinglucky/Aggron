@@ -3,7 +3,7 @@
 
 RuhohSpec: '1.0'
 theme: 'untitled'
-production_url: 'http://static.gracecode.com'
+production_url: 'http://www.gracecode.com'
 base_path: '/'
 
 posts:

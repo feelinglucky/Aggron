@@ -11,7 +11,10 @@
         <link rel="shortcut icon" href="{{urls.theme_media}}/images/wu@64x64.png" type="image/png" />
         <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/styles.css" />
         <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/font-awesome.css" />
+        <link href="http://rss.gracecode.com" rel="alternate" title="RSS" type="application/rss+xml" />
+        <!--
         <link href="{{site.urls}}/rss.xml" rel="alternate" title="RSS" type="application/rss+xml" />
+        -->
         <meta name="author" content="{{site.author.name}}" />
         <meta name="application-name" content="{{site.title}}" />
         <meta name="generator" content="VIM Editor - Mac OS X 10.8.2" />

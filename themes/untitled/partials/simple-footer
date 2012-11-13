@@ -1,3 +1,4 @@
+
 <footer>
     <div id="copyright">
         <p>
@@ -19,12 +20,15 @@
     <div id="footnote"> 
         <p>
             &copy; 2012 {{site.title}} 
-            <a href="{{site.urls}}/rss.xml">rss</a> 
-            <a href="{{site.urls}}/archive.html">archive</a>
+            <!-- <a href="{{site.urls}}/rss.xml">rss</a> -->
+            <a href="http://rss.gracecode.com" />RSS</a>
+            <a href="{{site.urls}}/archive.html">Archive</a>
         </p>
         <p>
-            <a href="http://www.miibeian.gov.cn" ref="nofollow" 
-                title="和谐地备了案">浙ICP备 07002356 号</a> 
+            <a href="http://www.miibeian.gov.cn" 
+                ref="nofollow" title="和谐地备了案">浙ICP备 07002356 号</a> 
         </p>
     </div>
 </footer>
+
+{{{ analytics }}}

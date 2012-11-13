@@ -7,7 +7,10 @@ vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
     <p>Hi~，我叫「明城」也叫「手气不错」或者洋气的英文名「feelinglucky」，同
         时这也是我的 <a href="{{site.author.github}}">GitHub</a>
         、 <a href="{{site.author.twitter}}">Twitter</a>、
+<!--
         <a href="{{site.author.flickr}}">Flickr</a>等服务的用户名。
+-->
+        <a href="{{site.author.instagram}}">Instagram</a>等服务的用户名。
     本人八零后、技术男、宁波佬，现居杭州。</p>
 
     <p>这个站点原先的名字叫 <em>Gracecode.com</em> 以及现在叫 <em>「無標題文檔」
