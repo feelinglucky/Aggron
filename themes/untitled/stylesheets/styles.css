@@ -223,6 +223,11 @@ i[class^="icon-"] {
     text-indent: 2em;
 }
 
+.article p > a:visited,
+.article p > a:link {
+    border-bottom: 1px dashed #c33;
+}
+
 .article p.metas {
     text-align: right;
     font-size: 1.2em;
