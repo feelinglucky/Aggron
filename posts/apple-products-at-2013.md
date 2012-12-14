@@ -11,11 +11,15 @@ categories:
 
 [题图 via](http://www.migsmobile.net/2008/04/18/the-future-with-apple-products/)
 
-相对在 Jobs 时代苹果严格的保密风格，这一年来媒体们对于新产品的预测做到了异乎精确的预测和判断，这不得不让人觉得苹果的风格是否在 Cook 的有了些转变。
+相对在 Jobs
+时代苹果严格的保密风格，这一年来媒体们对于新产品的预测做到了异乎精确的预测和判断
+，这不得不让人觉得苹果的风格是否在 Cook 时代有了些转变。
 
-即将过去的 2012 年，对于苹果而言是稳扎稳打的一年。不断被曝光的 iPhone5 、搭载 Retina Display 的 Macbook Pro、以及业界早已经「熟悉」的 Mini iPad，苹果的产品设计越来越符合用户的「口味」和需求。
+不断被曝光的 iPhone5 、搭载 Retina Display 的 Macbook Pro、以及业界早已经「熟悉
+」的 Mini iPad，苹果的产品设计越来越符合用户的「口味」和需求。总体看来过去的
+2012 年，对于 Apple 而言是稳扎稳打的一年。
 
-那么现在看来 柏枫 兄弟[对于 2012 年苹果产品的判断](http://www.baifeng.me/apple/2012/02/1819/)已经预测正确了大部分，那么我也斗胆来预测下 2013 下一年的苹果产品。
+现在看来 柏枫 兄弟[对于 2012 年苹果产品的判断](http://www.baifeng.me/apple/2012/02/1819/)已经预测正确了大部分，那么我也斗胆来预测下 2013 下一年的苹果产品吧。
 
 # Retina Display
 
@@ -68,7 +72,8 @@ iPod Touch 会取代 iPod Classic 的地位，同时会更新新的配置，但�
 
 # Other
 
-说到此我似乎忘记了 iMac 存在，2013 年新款的 iMac 我对它的期待也许就是能搭载 Retina Display 以及标配 SSD 了。但是，我个人觉得这样的可能性非常小。
+说到此我似乎忘记了 iMac 存在，2013 年新款的 iMac 我对它的期待也许就是能搭载
+Retina Display 以及标配 SSD 了。但是，因为苹果开发了 [Fushion Drive](http://en.wikipedia.org/wiki/Fusion_Drive) 技术，所以我个人觉得这可能性非常小。
 
 Apple TV 以及新的 Mac Mini 也将会更新，但是毕竟是二线产品所以并不会给人带来多大的期待。然而，个人还是比较期待 Mac Mini 能够标配搭载 SSD 的。
 
