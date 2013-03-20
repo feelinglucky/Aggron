@@ -80,6 +80,10 @@ body {
 	border-top: 10px solid #333;
 }
 
+.align-right {
+    text-align: right;
+}
+
 #body {
     width: 950px;
     margin: 0 auto;
@@ -285,19 +289,17 @@ i[class^="icon-"] {
 }
  
 .pagination {
+    text-align: center;
     list-style: none;
     overflow: hidden;
     clear: both;
     width: 30%;
-    margin: 5em auto 1em;
+    margin: 3em auto 1em;
 }
 
 .pagination li {
-    float: left;
-}
-
-.pagination li.next {
-    float: right;
+    display: inline-block;
+    margin: 0 1.5em;
 }
 
 
@@ -573,3 +575,4 @@ footer #copyright {
 .no-comments p {
     font-size: 1em;
 }
+
