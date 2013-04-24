@@ -1,5 +1,0 @@
-fontSize=14
-
-[ *.md ]
-softTabs=true
-tabSize= 4
