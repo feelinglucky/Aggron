@@ -1,0 +1,18 @@
+<!--
+vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
+-->
+<div class="resources">
+    <h2 id="donate"><i class="icon-money"></i>捐助</h2>
+    <p>
+
+    </p>
+    <ul>
+        <li>
+            <a href="https://me.alipay.com/mingcheng">使用支付宝捐助</a>
+        </li>
+        <li>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PZD6VSKM7PELQ">Donate With Paypal</a>
+        </li>
+    </ul>
+</div>
+
