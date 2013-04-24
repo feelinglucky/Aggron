@@ -9,6 +9,13 @@
         </li>
 
         <li>
+        <h3 id="toc_7"><a href="https://github.com/feelinglucky/AQI">中国大陆重点城市空气质量（AQI）历史数据</a></h3>
+        <p>提供从 2001 年至今的中国大陆重点城市空气质量（AQI）历史数据，SQLite
+        数据文件打包下载。<a
+            href="{{site.urls}}/posts/mainland-china-aqi-database-download.html">[发布说明]</a></p>
+        </li>
+
+        <li>
         <h3 id="toc_5"><a href="http://graceco.de/motion/">Motion</a></h3>
         <p><img alt="Motion Logo" src="http://graceco.de/motion/accessory/logo-motion-200.png"></p>
         <p>这是名为 Motion 的 Javascript 动画组件。它能够帮助您不依赖任何的

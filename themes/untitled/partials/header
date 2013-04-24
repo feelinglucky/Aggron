@@ -19,7 +19,7 @@
         <meta name="application-name" content="{{site.title}}" />
         <meta name="generator" content="VIM Editor - Mac OS X 10.8.2" />
         <meta name="verify-v1" content="4BJs16VTJDDsu9Ngl8AOdXkxG0MgCB92r/CgcHOROpA=" />
-        <!--[if lt IE 9]>
+        <!--[if IE 7]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/font-awesome-ie7.css" />
         <![endif]-->
