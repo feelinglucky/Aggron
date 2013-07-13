@@ -9,7 +9,7 @@
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, 
 legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
-   margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;
@@ -25,14 +25,14 @@ tt, code, kbd, samp {
 }
 
 input {
-    background: #f1f1f1;
+    background: #fff;
     padding: .5em .3em;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
 input[type=text]:focus {
-    background: #fff;
+    border-color: #333;
 }
 
 ol, ul {
@@ -70,8 +70,8 @@ html {
 }
 
 body {
-    background: #eee;
-    font-family: "Georgia","Helvetica Neue", Arial, sans-serif;
+    background: #fafafa;
+    font-family: "STSong", "NSimSun", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 16px;
 	color: #575757;
 	margin: 0 0 1px;
@@ -182,9 +182,10 @@ i[class^="icon-"] {
 .article h3,
 .article h4,
 .article h5 {
+    font-family: "STFangsong", "Fangsong";
     padding: 5px 0;
-    font-weight: normal;
     margin: 1.2em 0 .5em 0;
+    font-weight: normal;
 }
 
 .article h1 {
@@ -224,7 +225,7 @@ i[class^="icon-"] {
     margin: .5em 0;
     line-height: 1.5em;
     color: #333;
-    text-indent: 2em;
+    text-indent: 1em;
 }
 
 .article p > a:visited,
@@ -246,7 +247,7 @@ i[class^="icon-"] {
     border: 1px solid #ccc;
     padding: .5em;
     border-radius: 3px;
-    background: #f3f3f3;
+    background: #fff;
     max-width: 85%;
 }
 
@@ -254,7 +255,7 @@ i[class^="icon-"] {
 .article code {
     font-size: .9em;
     padding: .5em;
-    margin: 0em 2em;
+    margin: 0em 1em;
 }
 
 .article li pre, .article li code,
@@ -276,7 +277,7 @@ i[class^="icon-"] {
 
 .article ul,
 .article ol {
-    margin: 1em 0 1em 2em;
+    margin: 1em 0 1em 1em;
     list-style-position: inside;
 }
 
@@ -421,9 +422,11 @@ footer #copyright {
 }
 
 .index .projects ul li {
+    /*
     width: 30%;
     float: left;
     min-height: 150px;
+    */
     margin: 0 1.5em 0 0;
 }
 
@@ -486,7 +489,7 @@ footer #copyright {
 }
 
 .index .blog .categories ul {
-    margin: 1em 0 1em 2em;
+    margin: 1em 0 1em 1em;
 }
 
 .index .blog .categories li {

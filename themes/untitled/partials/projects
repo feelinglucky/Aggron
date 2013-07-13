@@ -2,14 +2,24 @@
     <h2 id="toc_0"><i class="icon-beaker"></i>项目&amp;工具</h2>
     <ul>
         <li>
-        <h3 id="toc_1"><a
+        <h3 id="toc_1"> <i class="icon-ok"></i> 读知乎 for Android</h3>
+        <p><img title="读知乎" alt="" src="http://files.gracecode.com/2013_07_12/1373599938@320.png" /></p>
+        <p>随时随地获得「知乎」每日最新精选条目。官方网站：<a href="http://z.ihu.im/">http://z.ihu.im/</a> [<a href="http://www.gracecode.com/posts/izhihu-launched.html">发布说明</a>]</p>
+        </li>
+
+        <li>
+        <h3 id="toc_1">
+        <i class="icon-ok"></i> 
+        <a
                 href="https://github.com/feelinglucky/tracker">Tracker</a></h3>
         <p><img alt="Track Banner" src="http://files.gracecode.com/2012_09_28/1348798251.png" /></p>
         <p>通过 Android 设备的 GPS 记录行动轨迹，目前功能可以输出为图表以及分享到新浪微博。</p>
         </li>
 
         <li>
-        <h3 id="toc_7"><a href="https://github.com/feelinglucky/AQI">中国大陆重点城市空气质量（AQI）历史数据</a></h3>
+        <h3 id="toc_7">
+        <i class="icon-ok"></i> 
+        <a href="https://github.com/feelinglucky/AQI">中国大陆重点城市空气质量（AQI）历史数据</a></h3>
         <p>提供从 2001 年至今的中国大陆重点城市空气质量（AQI）历史数据，SQLite
         数据文件打包下载。<a
             href="{{site.urls}}/posts/mainland-china-aqi-database-download.html">[发布说明]</a></p>

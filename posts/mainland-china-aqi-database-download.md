@@ -1,5 +1,5 @@
 ---
-title: 中国大陆重点城市空气质量（AQI）历史数据库
+title: 大陆重点城市空气质量（AQI）数据库
 date: 2013-03-26
 layout: post
 categories:
