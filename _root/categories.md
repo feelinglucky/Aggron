@@ -1,6 +1,5 @@
 ---
-description:
-#permalink: /categories.html
+description: Global category lists.
 ---
 
 <ul class="tag_box inline">

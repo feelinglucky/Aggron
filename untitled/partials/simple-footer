@@ -22,7 +22,6 @@
             &copy; 2012 {{data.title}} 
             <!-- <a href="{{data.urls}}/rss.xml">rss</a> -->
             <a href="http://rss.gracecode.com" />RSS</a>
-            <a href="{{data.urls}}/archive.html">Archive</a>
         </p>
         <p>
             <a href="http://www.miibeian.gov.cn" 

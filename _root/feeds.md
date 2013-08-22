@@ -1,4 +1,4 @@
 ---
 layout: feeds
-#permalink: /feeds.xml
+permalink: /feeds.xml
 ---
