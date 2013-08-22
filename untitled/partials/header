@@ -12,8 +12,9 @@
         <link rel="icon" href="{{urls.media}}/images/wu@64x64.png" type="image/x-icon"/>
         {{# stylesheets.load }}
           styles.css
-          font-awesome.css
         {{/ stylesheets.load }}
+        <link rel="stylesheet" type="text/css" 
+            href="http://cdn.staticfile.org/font-awesome/3.2.1/css/font-awesome.min.css" />
         <link href="http://rss.gracecode.com" rel="alternate" title="RSS" type="application/rss+xml" />
         <!--
         <link href="{{data.urls}}/rss.xml" rel="alternate" title="RSS" type="application/rss+xml" />
