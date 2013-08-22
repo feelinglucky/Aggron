@@ -1,16 +1,58 @@
 ---
 # Usage: http://ruhoh.com/usage/configure/ 
 
-RuhohSpec: '1.0'
-theme: 'untitled'
+RuhohSpec: '2.1'
+
+'untitled':
+    use: "theme"
+
 production_url: 'http://www.gracecode.com'
 base_path: '/'
 
+_root:
+  permalink: /:filename.html
+  permalink_ext: true
+  rss:
+    enable: false
+  paginator:
+    enable: false
+
 posts:
+  sort: ["date", "desc"]
   permalink: /posts/:filename.html
+  permalink_ext: true
   summary_lines: 20
   latest: 12 
+  rss:
+    enable: false
+  paginator:
+    enable: true
+    url: "/page/"
+    per_page: 6
+    root_page: '/'
 
-pages:
-  #permalink: 'pretty'
+projects:
+  permalink: "/projects/:filename.html"
+  permalink_ext: true
+  rss:
+    enable: false
+  paginator:
+    enable: false
 
+manuals:
+  permalink: "/:filename.html"
+  permalink_ext: true
+  rss:
+    enable: false
+  paginator:
+    enable: false
+
+
+asset_pipeline:
+  enable: false
+
+widgets:
+  analytics:
+    use: google
+    enable: true 
+    tracking_id: 'UA-2634498-1'

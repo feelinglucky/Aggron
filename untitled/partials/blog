@@ -1,0 +1,50 @@
+<div class="blog" id="blog">
+    <h2><i class="icon-pencil"></i>博客</h2>
+
+    <p>
+        这里的主要内容是我的流水，主要记录生活、新知、
+        以及技术方面等等其他任何我觉得的有趣的事物。
+
+        如果我不是太懒的话，会时常更新这里的内容。不过，您可能无法添加博客评论，<a
+            href="{{data.urls}}/why-my-blog-do-not-need-comments.html">因为我关闭了这个功能</a>。
+    </p>
+
+    <div class="latest">
+        <h3>最新文章</h3>
+        <ul>
+            {{# posts.latest }}
+            <li>
+                <a href="{{url}}">{{title}}</a>
+            </li>
+            {{/ posts.latest }}
+            <li><a href="{{ data.urls }}/page/2/">更多 &raquo;</a></li>
+        </ul>
+
+
+    </div>
+    <div class="categories">
+        <h3>分类</h3>
+        <ul>
+            {{# posts.categories.all }}
+            <li>
+                <a href="{{ url }}">{{ name }} <span>({{ count }})</span></a>
+            </li>
+            {{/ posts.categories.all }}
+        </ul>
+
+        <h3>搜索</h3>
+        <form method="get" action="http://www.google.com/cse" class="search">  
+            <div> 
+                <p>
+                    <input type="hidden" name="cx" value="003109753558623109791:ls-iai7p8h0" /> 
+                    <input type="hidden" name="ie" value="UTF-8" /> 
+                    <input type="text" placeholder="请输入关键词" 
+                        name="q" class="text" size="20" /> 
+                </p>
+                <p>
+                    <input type="submit" class="submit" value="搜索" /> 
+                </p>
+            </div> 
+        </form>
+    </div>
+</div>

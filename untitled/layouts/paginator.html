@@ -1,0 +1,30 @@
+---
+layout : default
+---
+<div class="article">
+    {{#collection.paginator}}
+    <div class="{{collection.resource_name}}">
+        <h1 class="title">
+            <a href="{{url}}">{{title}}</a> 
+        </h1>
+        <p class="metas">{{date}}</p>
+        {{{ summary }}}
+        <div class="see-more">
+            <a href="{{url}}">阅读全文 &raquo;</a>
+        </div>
+    </div>
+    {{/collection.paginator}}
+    <div class="pagination">
+        <ul>
+            {{#collection.paginator_navigation}}
+            {{#is_active_page}}
+            <li class="active"><a href="{{url}}">{{name}}</a></li>
+            {{/is_active_page}}
+            {{^is_active_page}}
+            <li><a href="{{url}}">{{name}}</a></li>
+            {{/is_active_page}}
+            {{/collection.paginator_navigation}}
+        </ul>
+    </div>
+</div>
+</div>

@@ -1,0 +1,33 @@
+<!--
+vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
+-->
+<div class="resources">
+    <h2 id="resources"><i class="icon-book"></i>资源&amp;文档</h2>
+    <p>
+        这里包含我一些整理和翻译的文档，希望我没那么懒。<strong>PS，请尊重原创，转贴请注明来源出处和链接。</strong>
+    </p>
+    <!--
+    <li>使用 Graphivz 制作流程图</li>
+    <li>Ruhoh 使用笔记</li>
+    -->
+    <ul>
+        <li>
+            <a href="{{data.urls}}/vimwiki-usage-notes.html">VimWiki 使用笔记</a>
+        </li>
+        <li><a href="{{data.server.lab}}/manual/cscope_vim_tutorial_zh.html">Vim/Cscope 入门指导</a>
+            <a href="{{data.urls}}/posts/316.html">[说明]</a>
+        </li>
+        <li><a
+                href="{{data.server.file}}/2008_01_23/1201060450.pdf">(Dojo)Javascript 编码规范</a>
+            <a href="{{data.urls}}/posts/698.html">[说明]</a>
+        </li>
+        <li><a href="{{data.server.file}}/2007_11_12/1194862747.pdf"> Slackware 的 INIT </a> <a 
+                href="{{data.urls}}/posts/93.html">[说明]</a>
+        </li>
+        <li>
+            <a href="{{data.server.file}}/2007_11_29/1196297960.pdf">清单式学习 VI 编辑器</a>
+            <a href="{{data.urls}}/posts/274.html">[发布说明]</a>
+        </li>
+    </ul>
+</div>
+

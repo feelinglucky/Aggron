@@ -1,4 +1,0 @@
----
-layout: feeds
-type: draft
----

@@ -1,0 +1,19 @@
+---
+description:
+#permalink: /categories.html
+---
+
+<ul class="tag_box inline">
+    {{# categories }}
+        {{> categories_list }}
+    {{/ categories }}
+</ul>
+
+{{# categories }}
+<h2 id="{{ name }}-ref">{{ name }} ({{ count }})</h2>
+<ul>
+    {{# posts?to_posts }}
+        {{> posts_list }}
+    {{/ posts?to_posts }}
+</ul>
+{{/ categories }}

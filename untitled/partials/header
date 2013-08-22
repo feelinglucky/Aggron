@@ -1,0 +1,29 @@
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <title>{{page.title}} - {{data.title}}</title>
+        <meta name="keywords" 
+            content="{{data.keywords}}" />
+        <meta name="description" 
+            content="{{description}}" />
+
+        <link rel="shortcut icon" href="{{urls.media}}/images/wu@64x64.png" type="image/png" />
+        <link rel="icon" href="{{urls.media}}/images/wu@64x64.png" type="image/x-icon"/>
+        {{# stylesheets.load }}
+          styles.css
+          font-awesome.css
+        {{/ stylesheets.load }}
+        <link href="http://rss.gracecode.com" rel="alternate" title="RSS" type="application/rss+xml" />
+        <!--
+        <link href="{{data.urls}}/rss.xml" rel="alternate" title="RSS" type="application/rss+xml" />
+        -->
+        <meta name="author" content="{{data.author.name}}" />
+        <meta name="application-name" content="{{data.title}}" />
+        <meta name="generator" content="VIM Editor 7.4(Mac OS X 10.8.4)" />
+        <meta name="verify-v1" content="4BJs16VTJDDsu9Ngl8AOdXkxG0MgCB92r/CgcHOROpA=" />
+        <!--[if IE 7]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <link rel="stylesheet" type="text/css" href="{{urls.theme_stylesheets}}/font-awesome-ie7.css" />
+        <![endif]-->
+    </head>

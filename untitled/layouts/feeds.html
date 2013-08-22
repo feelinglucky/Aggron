@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+    <channel>
+        <title>{{data.title}}</title>
+        <link>{{data.urls}}</link>
+        <atom:link href="{{data.urls}}/feeds.html" rel="self" type="application/rss+xml" />
+        <language>zh-CN</language>
+        <description>{{data.description}}</description>
+        {{# posts.latest }}
+        <item>
+            <title>{{title}}</title>
+            <dc:creator>{{data.author.name}}</dc:creator>
+            <link>{{data.urls}}{{url}}</link>
+            <pubDate>{{date}}</pubDate>
+            <description>{{content}}</description>
+            <content:encoded>{{content}}</content:encoded>
+        </item>
+        {{/ posts.latest }}
+    </channel>
+</rss>
+
