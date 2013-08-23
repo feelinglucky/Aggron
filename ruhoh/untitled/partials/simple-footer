@@ -30,6 +30,4 @@
     </div>
 </footer>
 
-{{> baidu }}
-{{{ analytics }}}
-
+{{> analytics }}
