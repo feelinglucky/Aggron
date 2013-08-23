@@ -1,8 +1,8 @@
 #  「无标题文档」博客源代码及资源
 
-「无标题文档」，Gracecode.com 的静态博客源代码，使用 Ruhoh 构建。
+![Blog Logo](http://www.gracecode.com/assets/media/images/wu@128x128.png)
 
-![http://www.gracecode.com/assets/media/images/wu@64x64.png](http://www.gracecode.com/assets/media/images/wu@64x64.png)
+「无标题文档」，Gracecode.com 的静态博客源代码，使用 Ruhoh 构建。
 
 
 ## 更新历史
