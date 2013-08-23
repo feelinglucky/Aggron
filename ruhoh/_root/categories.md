@@ -1,18 +1,19 @@
 ---
+layout: page
 description: Global category lists.
 ---
 
 <ul class="tag_box inline">
-    {{# categories }}
+    {{# posts.categories.all }}
         {{> categories_list }}
-    {{/ categories }}
+    {{/ posts.categories.all }}
 </ul>
 
-{{# categories }}
-<h2 id="{{ name }}-ref">{{ name }} ({{ count }})</h2>
+{{# posts.categories.all }}
+<h2 id="{{ name }}-ref">{{ name }}({{ count }})</h2>
 <ul>
     {{# posts?to_posts }}
         {{> posts_list }}
     {{/ posts?to_posts }}
 </ul>
-{{/ categories }}
+{{/ posts.categories.all }}

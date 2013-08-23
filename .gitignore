@@ -1,5 +1,7 @@
-compiled/*
-.DS_Store
-*~
 *.swp
-tools/dump/www_gracecode_com.php
+*~
+.DS_Store
+/archives/*.7z
+/compiled/*
+/ruhoh/compiled/*
+/tools/dump/*
