@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap:  /sitemap.html
+Disallow: /admin/
+Disallow: /cert/
+Disallow: /images/
+Disallow: /upload/
+Disallow: /usr/
+Disallow: /var/
