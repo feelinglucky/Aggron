@@ -1,4 +1,4 @@
-ruhoh: /dev/null
+ruhoh: ./ruhoh/*
 	cd ruhoh && make && cd ..
 	cp -Rf ./addition/* ./compiled/
 
