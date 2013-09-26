@@ -20,6 +20,7 @@ _root:
 
 posts:
   layout: post
+  date_format: "%Y-%m-%d"
   sort: ["date", "desc"]
   permalink: /posts/:filename.html
   permalink_ext: true

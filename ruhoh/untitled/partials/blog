@@ -33,7 +33,7 @@
         </ul>
 
         <h3>搜索</h3>
-        <form method="get" action="http://www.google.com/cse" class="search">  
+        <form method="get" action="https://www.google.com/cse" class="search">  
             <div> 
                 <p>
                     <input type="hidden" name="cx" value="003109753558623109791:ls-iai7p8h0" /> 
