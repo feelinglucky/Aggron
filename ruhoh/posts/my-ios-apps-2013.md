@@ -1,6 +1,6 @@
 ---
-title: 我常用的 iOS 应用（2013版）
-date: 2013-02-17
+title: '我常用的 iOS 应用（2013版）'
+date: '2013-02-17'
 layout: post
 categories:
     - 软件

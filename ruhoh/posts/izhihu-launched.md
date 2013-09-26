@@ -1,6 +1,6 @@
 ---
-title: 又一款 Android 应用：「读知乎」
-date: 13-7-12
+title: '又一款 Android 应用：「读知乎」'
+date: '13-7-12'
 layout: post
 categories:
     - Android

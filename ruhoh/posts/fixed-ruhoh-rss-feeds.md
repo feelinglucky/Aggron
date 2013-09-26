@@ -1,5 +1,5 @@
 ---
-title: 修复 Ruhoh 1.1 的 RSS 输出
+title: '修复 Ruhoh 1.1 的 RSS 输出'
 date: '2012-11-14'
 layout: post
 categories:

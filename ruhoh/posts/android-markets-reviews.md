@@ -1,6 +1,6 @@
 ---
-title: Android 各应用市场后台发布对比和总结
-date: 2013-05-23
+title: 'Android 各应用市场后台发布对比和总结'
+date: '2013-05-23'
 layout: post
 categories:
     - 观点

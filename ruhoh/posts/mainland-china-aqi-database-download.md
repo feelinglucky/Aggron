@@ -1,6 +1,6 @@
 ---
-title: 大陆重点城市空气质量（AQI）数据库
-date: 2013-03-26
+title: '大陆重点城市空气质量（AQI）数据库'
+date: '2013-03-26'
 layout: post
 categories:
     - 软件

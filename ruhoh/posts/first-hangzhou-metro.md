@@ -1,6 +1,6 @@
 ---
-title: 迟到的地铁
-date: 2012-11-24
+title: '迟到的地铁'
+date: '2012-11-24'
 layout: post
 categories:
     - 观点

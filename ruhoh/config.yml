@@ -1,7 +1,7 @@
 ---
 # Usage: http://ruhoh.com/usage/configure/ 
 
-RuhohSpec: '2.1'
+RuhohSpec: '2.5'
 
 'untitled':
     use: "theme"
@@ -51,6 +51,9 @@ manuals:
     enable: false
   paginator:
     enable: false
+
+"static":
+    "use": 'static'
 
 asset_pipeline:
   enable: false

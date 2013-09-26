@@ -1,6 +1,6 @@
 ---
-title: 使用命令行截取 Android 设备的界面
-date: 2013-08-23
+title: '使用命令行截取 Android 设备的界面'
+date: '2013-08-23'
 categories:
     - Android
 ---

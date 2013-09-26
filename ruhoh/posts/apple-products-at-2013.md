@@ -1,6 +1,6 @@
 ---
-title: 2013 年 Apple 产品预测
-date: 2012-12-12
+title: '2013 年 Apple 产品预测'
+date: '2012-12-12'
 layout: post
 categories:
     - 观点

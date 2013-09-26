@@ -1,6 +1,6 @@
 ---
-title: 又是个新的开始
-date: 2012-10-17
+title: '又是个新的开始'
+date: '2012-10-17'
 layout: post
 categories:
     - 我的生活
