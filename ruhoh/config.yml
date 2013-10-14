@@ -57,3 +57,8 @@ manuals:
 
 asset_pipeline:
   enable: false
+
+widgets:
+  google_prettify:
+    enable: false
+
