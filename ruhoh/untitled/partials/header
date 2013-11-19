@@ -10,6 +10,7 @@
 
         <link rel="shortcut icon" href="{{urls.media}}/images/wu@64x64.png" type="image/png" />
         <link rel="icon" href="{{urls.media}}/images/wu@64x64.png" type="image/x-icon"/>
+        <link href="http://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" type="text/css" />
         {{# stylesheets.load }}
           styles.css
         {{/ stylesheets.load }}
@@ -21,7 +22,7 @@
         -->
         <meta name="author" content="{{data.author.name}}" />
         <meta name="application-name" content="{{data.title}}" />
-        <meta name="generator" content="VIM Editor 7.4(Mac OS X 10.8.4)" />
+        <meta name="generator" content="VIM Editor 7.4(Mac OS X 10.9)" />
         <meta name="verify-v1" content="4BJs16VTJDDsu9Ngl8AOdXkxG0MgCB92r/CgcHOROpA=" />
         <!--[if IE 7]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

@@ -70,10 +70,9 @@ html {
 }
 
 body {
-    /*background: #fafafa url(http://files.gracecode.com/2013_09_02/1378086759.png) repeat; */
     background: #fafafa;
-    font-family: "STSong", "NSimSun", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 16px;
+    font-family: 'Lora', "STSong", "NSimSun", "SimSun", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 17px;
 	color: #575757;
 	margin: 0 0 1px;
     height: 100%; 
@@ -254,9 +253,10 @@ i[class^="icon-"] {
 
 .article pre,
 .article code {
-    font-size: .9em;
+    font-size: .85em;
     padding: .5em;
     margin: 0em 1em;
+    font-weight: normal;
 }
 
 .article li pre, .article li code,
