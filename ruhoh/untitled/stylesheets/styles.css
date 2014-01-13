@@ -140,7 +140,7 @@ header h1#logo {
     height: 1.5em;
     padding: .3em 1em;
     background: #cc3333;
-    box-shadow: 2px 1px 10px #999;
+    box-shadow: 1px 1px 1px #999;
     float: left;
     margin: 2em 0;
     vertical-align: middle;
@@ -152,7 +152,7 @@ header h1#logo a:visited,
 header h1#logo a:hover {
     display: block;
     color: #fff;
-    text-shadow: 0 -2px 2px #999;
+    text-shadow: 0 -1px 1px #999;
     text-decoration: none;
 }
 
@@ -268,6 +268,7 @@ i[class^="icon-"] {
     border: 1px solid #ccc;
     background: #f3f3f3;
     border-radius: 3px;
+    margin: .5em 1em;
 }
 
 .article p code,
