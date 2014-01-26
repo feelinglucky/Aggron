@@ -1,7 +1,5 @@
-<!--
-vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
--->
-<div class="resources">
+<section class="resources">
+<div class="body">
     <h2 id="resources"><i class="icon-book"></i>资源&amp;文档</h2>
     <p>
         这里包含我一些整理和翻译的文档，希望我没那么懒。<strong>PS，请尊重原创，转贴请注明来源出处和链接。</strong>
@@ -30,4 +28,5 @@ vim: set et sw=4 ts=4 ft=xml sts=4 ft=php fdm=marker ff=unix fenc=utf8 nobomb:
         </li>
     </ul>
 </div>
+</section>
 

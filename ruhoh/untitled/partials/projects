@@ -1,8 +1,9 @@
-<div class="projects">
+<section class="projects">
+<div class="body">
     <h2 id="toc_0"><i class="icon-beaker"></i>项目&amp;工具</h2>
     <ul>
         <li>
-        <h3 id="toc_1"> <i class="icon-ok"></i> 读知乎 for Android（不再更新）</h3>
+        <h3 id="toc_1"> <i class="icon-ok"></i> 读知乎 for Android（暂停更新）</h3>
         <p><img title="读知乎" alt="" src="http://files.gracecode.com/2013_07_12/1373599938@320.png" /></p>
         <p>随时随地获得「知乎」每日最新精选条目。官方网站：<a href="http://z.ihu.im/">http://z.ihu.im/</a> [<a href="http://www.gracecode.com/posts/izhihu-launched.html">发布说明</a>]</p>
 		
@@ -13,7 +14,9 @@
         <h3 id="toc_1">
         <a
                 href="https://github.com/feelinglucky/tracker">Tracker</a></h3>
-        <p><img alt="Track Banner" src="http://files.gracecode.com/2012_09_28/1348798251.png" /></p>
+        <!--
+            <p><img alt="Track Banner" src="http://files.gracecode.com/2012_09_28/1348798251.png" /></p>
+        -->
         <p>通过 Android 设备的 GPS 记录行动轨迹，目前功能可以输出为图表以及分享到新浪微博。</p>
         </li>
 
@@ -41,10 +44,12 @@
             href="{{data.urls}}/posts/2171.html">[发布说明]</a></p>
         </li>
 
+<!--
         <li>
         <h3 id="toc_2"><a href="http://graceco.de/icurl/">iCurl</a></h3>
         <p>网页版本的 curl 调试工具，如果你知道 curl 命令行工具，那么你会喜欢这玩意的。</p>
         </li>
+-->
 
         <li>
 
@@ -62,3 +67,4 @@
         </li>
     </ul>
 </div>
+</section>

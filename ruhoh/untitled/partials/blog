@@ -1,4 +1,5 @@
-<div class="blog" id="blog">
+<section class="blog">
+<div class="body">
     <h2><i class="icon-pencil"></i>博客</h2>
 
     <p>
@@ -48,3 +49,4 @@
         </form>
     </div>
 </div>
+</section>

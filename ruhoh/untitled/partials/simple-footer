@@ -19,15 +19,26 @@
 
     <div id="footnote"> 
         <p>
-            &copy; 2012 {{data.title}} 
+            &copy; 2007 - 2014 {{data.title}} 
             <!-- <a href="{{data.urls}}/rss.xml">rss</a> -->
             <a href="http://rss.gracecode.com" />RSS</a>
         </p>
         <p>
             <a href="http://www.miibeian.gov.cn" 
-                ref="nofollow" title="和谐地备了案">浙ICP备 07002356 号</a> 
+                ref="nofollow" title="和谐地备了案">沪ICP备14003520号-1</a> 
         </p>
     </div>
 </footer>
 
+<script src="http://cdn.staticfile.org/less.js/1.6.1/less.min.js"></script>
+<script src="http://cdn.staticfile.org/webfont/1.3.0/webfont.min.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Lora']
+        }
+    });
+</script>
+
 {{> analytics }}
+

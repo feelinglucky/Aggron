@@ -1,0 +1,480 @@
+/* vim: set et sw=4 ts=4 sts=4 ft=css fdm=marker ff=unix fenc=utf8 nobomb: */
+/**
+ *
+ * @author mingcheng<lucky#gracecode.com>
+ * @date   2014-01-25
+ * @link   http://www.gracecode.com/
+ */
+
+@red:   #800;
+@black: #38342B;
+@white: #fafafa;
+@real-white: #fff;
+@gray:  #eee;
+@top:   50px;
+@font-default:  17px "Lora", "STSong", "NSimSun", serif;
+@font-sans-serif: .9em Monospace, "Courier New", sans-serif;
+@font-title: "STFangsong", "Fangsong";
+@page-width: 950px;
+@line-height: 1.7em;
+
+.optimizelegibility {
+    text-rendering: optimizelegibility;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.rounded-corners (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.hr {
+    display: none;
+    width: 30%;
+    margin: 2.5em auto;
+    height: 1px;
+    background: @gray;
+    overflow: hidden;
+    border: none;
+    *font-size: 1px;
+}
+
+body > hr {
+    .hr;
+}
+
+.ul {
+    list-style: square;
+    list-style-position:inside;
+    margin: 1em 0 2em 2em;
+
+    li {
+
+    }
+}
+
+.p {
+    text-align: left;
+    margin: .5em 0;
+    line-height: @line-height;
+    text-indent: 2em;
+}
+
+.button {
+    border: none;
+    background: @red;
+    color: @white;
+    display: block;
+    padding: .3em 1em;
+    cursor: pointer;
+    font: @font-default;
+    .rounded-corners;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a, a:link, a:visited {
+    color: @red;
+    text-decoration: none;
+    border-bottom: 1px dotted @red;
+}
+
+input[type=text] {
+    border: 1px solid @gray;
+    background: @real-white;
+    padding: .3em .5em;
+    font: @font-default;
+    .rounded-corners;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: @red;
+    font-family: @font-title;
+    .optimizelegibility;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+	
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+em, strong {
+    color: @red;
+}
+
+body {
+    font: @font-default;
+    line-height: @line-height;
+    color: @black;
+    background: @white;
+    border-top: 5px solid @black;
+}
+
+.body {
+    margin: 0 auto;
+    width: @page-width;
+}
+
+header {
+    margin: @top 0;
+    margin-left: -3px;
+    overflow: hidden;
+    *zoom: 1;
+
+    #logo {
+        display: block;
+        font-size: 1.5em;
+        height: 1.5em;
+        line-height: 1.5em;
+        padding: .3em 1em .3em 1.5em;
+        background: @red;
+        vertical-align: middle;
+        float: left;
+        .rounded-corners(3px);
+
+            a,
+            a:link,
+            a:visited,
+            a:hover {
+                color: @white;
+                text-decoration: none;
+            }
+    }
+}
+
+footer {
+	background-color: @black;
+    clear: both;
+    overflow: hidden;
+    padding: 1em 5em;
+    color: @white;
+
+    a:link, a:hover, a:visited {
+        text-decoration: none;
+        border: none;
+    }
+
+    a[ref=nofollow] {
+        font-size: .8em;
+        color: @gray;
+    }
+
+    #footnote {
+        float: left;
+    }
+
+    #copyright {
+        float: right;
+        text-align: right;
+    }
+}
+
+
+.about {
+    padding: 2em 0;
+    background: @gray;
+    color: @black;
+    margin: 2em 0;
+
+    img {
+        border: none;
+    }
+
+    img[alt="我的照片"] {
+        border: 1px solid @gray;
+        float: right;
+        width: 90px;
+        height: 90px;
+        padding: .3em;
+        margin: 0 0 2em 2em;
+        background: @real-white;
+        .rounded-corners;
+    }
+
+    p {
+        .p
+    }
+}
+
+[class^="icon-"] {
+    margin-right: .3em;
+}
+
+.projects,
+.resources {
+    margin-bottom: 1em;
+}
+
+.blog,
+.projects,
+.resources {
+    clear: both;
+
+    p {
+        .p;
+    }
+
+    ul {
+        list-style: none;
+        overflow: hidden;
+        clear: both;
+        margin: 1em 0;
+        *zoom: 1;
+        .ul;
+
+        li {
+
+        }
+
+        img {
+            max-width: 200px;
+            height: auto;
+            .rounded-corners;
+        }
+
+        h3 {
+            margin: 1em 0;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+
+.blog {
+    overflow: hidden;
+    *zoom: 1;
+
+    .latest,
+    .categories {
+        float: left;
+        width: 45%;
+    }
+
+    .categories {
+        ul {
+            margin: 1em 0 1em 1em;
+        }
+
+        li {
+            width: 10em;
+            float: left;
+        }
+    }
+}
+
+.search {
+    padding: 1em 2em;
+
+    p {
+        text-indent: 0;
+        padding: 0 0 .5em 0;
+    }
+
+    input {
+        font-size: 1em;
+    }
+
+    input[type=submit], .submit {
+        .button
+    }
+}
+
+.projects {
+    padding: 1em 0;
+    margin: 1em 0;
+
+    ul {
+        list-style: none;
+    }
+}
+
+.resources {
+    ul {
+        .ul
+    }
+
+    li {
+        width: 50%;
+        float: left;
+    }
+}
+
+
+.article {
+    position: relative;
+    width: @page-width;
+    margin: 2em auto;
+
+    h1, h2, h3, h4, h5 {
+        color: @red;
+        padding: 5px 0;
+        margin: 1.2em 0 .5em 0;
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h1:first-child {
+        font-size: 1.8em;
+        .align-right;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    p {
+        .p;
+    }
+
+    p.metas {
+        font-size: 1.1em;
+        padding: 0 .2em 2em 0;
+        color: @gray;
+        .align-right;
+    }
+
+    p > img {
+        margin: 0 auto;
+        border: 1px solid @gray;
+        padding: .5em;
+        background: @real-white;
+        max-width: 85%;
+         .rounded-corners;
+    }
+
+    pre, code {
+        font: @font-sans-serif;
+        padding: .5em;
+        font-weight: normal;
+        background: @gray;
+        margin: .5em 2em;
+         .rounded-corners;
+    }
+
+    p code, pre code {
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul, ol {
+        margin: 0 2em;
+        list-style-position: inside;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+}
+ 
+.tag_box,
+.pagination {
+    list-style: none;
+    clear: both;
+    width: 85%;
+    margin: 3em auto 1em;
+    text-align: center;
+ 
+    li {
+        color: @black;
+        display: inline-block;
+        margin: .5em;
+        text-align: center;
+        padding: 0 .3em;
+        opacity: .9;
+        .rounded-corners(3px);
+
+        a {
+            border: none;
+            display: block;
+        }
+    }
+
+    li:hover, li.active {
+        background: @red;
+        opacity: 1;
+
+        a {
+            color: @white;
+        }
+    }
+}
+
+.pagination {
+    overflow: auto;
+
+    ul {
+        /*
+        width: 999em;
+        height: 4em;
+        */
+    }
+
+    li {
+        min-width: 3em;
+    }
+}
+
+.tag_box {
+    a {
+
+    }
+
+    li span {
+        color: @real-white;
+        font-size: small;
+    }
+}
+
+.see-more {
+    text-align: right;
+    margin: 2em 0 1em 0;
+}
+
+
