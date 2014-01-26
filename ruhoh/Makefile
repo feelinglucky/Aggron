@@ -1,5 +1,5 @@
 all:
-	ruhoh compile
+	./build.csh
 
 clean:
 	rm -rf compiled/*

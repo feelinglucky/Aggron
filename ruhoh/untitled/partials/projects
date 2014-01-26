@@ -44,15 +44,12 @@
             href="{{data.urls}}/posts/2171.html">[发布说明]</a></p>
         </li>
 
-<!--
         <li>
-        <h3 id="toc_2"><a href="http://graceco.de/icurl/">iCurl</a></h3>
+        <h3 id="toc_2"><a href="https://github.com/feelinglucky/icurl/">iCurl</a></h3>
         <p>网页版本的 curl 调试工具，如果你知道 curl 命令行工具，那么你会喜欢这玩意的。</p>
         </li>
--->
 
         <li>
-
         <h3 id="toc_4">
         <i class="icon-ok"></i> 
         <a

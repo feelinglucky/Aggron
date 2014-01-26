@@ -16,12 +16,17 @@
     <link href="http://cdn.staticfile.org/font-awesome/3.2.1/css/font-awesome.min.css"
         rel="stylesheet" type="text/css" />
 
+    {{# stylesheets.load }}
+        styles-min.css
+    {{/ stylesheets.load }}
+
     <!--
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700"
         rel="stylesheet" type="text/css" />
     -->
-
+    <!--
     <link rel="stylesheet/less" type="text/css" href="{{ urls.media }}/styles.less" />
+    -->
     <link href="http://rss.gracecode.com" rel="alternate" title="RSS" type="application/rss+xml" />
     <!--
     <link href="{{data.urls}}/rss.xml" rel="alternate" title="RSS" type="application/rss+xml" />
