@@ -56,6 +56,9 @@ body > hr {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
+.hidden {
+  display: none!important;
+}
 html {
   width: 100%;
   height: 100%;
@@ -374,6 +377,7 @@ footer #copyright {
   font-weight: normal;
   background: #eeeeee;
   margin: .5em 2em;
+  overflow-x: auto;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -426,6 +430,8 @@ footer #copyright {
 }
 .tag_box li:hover,
 .pagination li:hover,
+.tag_box li:focus,
+.pagination li:focus,
 .tag_box li.active,
 .pagination li.active {
   background: #880000;
@@ -433,6 +439,8 @@ footer #copyright {
 }
 .tag_box li:hover a,
 .pagination li:hover a,
+.tag_box li:focus a,
+.pagination li:focus a,
 .tag_box li.active a,
 .pagination li.active a {
   color: #fafafa;
@@ -456,4 +464,108 @@ footer #copyright {
 .see-more {
   text-align: right;
   margin: 2em 0 1em 0;
+}
+@media only screen and (max-width: 900px) {
+  header {
+    margin-top: 16.666666666666668px;
+  }
+  .p {
+    text-indent: 1em;
+    line-height: 1.4em;
+    font-size: 1em;
+    margin: .7em 0;
+  }
+  .about {
+    padding: .5em 0;
+    margin: 1em 0;
+  }
+  .about p {
+    text-indent: 1em;
+    line-height: 1.4em;
+    font-size: 1em;
+    margin: .7em 0;
+  }
+  .blog p,
+  .projects p,
+  .resources p {
+    text-indent: 1em;
+    line-height: 1.4em;
+    font-size: 1em;
+    margin: .7em 0;
+  }
+  .blog ul,
+  .projects ul,
+  .resources ul {
+    margin: 0;
+  }
+  .body {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .blog .latest,
+  .blog .categories {
+    margin-top: 16.666666666666668px;
+    width: 100%;
+    float: none;
+  }
+  .blog .latest ul,
+  .blog .categories ul {
+    margin: .5em 0;
+  }
+  .resources li {
+    float: none;
+    width: 100%;
+  }
+  .search {
+    padding: 0;
+  }
+  .search p {
+    text-indent: 0;
+  }
+  .article {
+    font-size: 18px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .article .wrap-all {
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .article h1,
+  .article h2,
+  .article h3,
+  .article h4,
+  .article h5 {
+    font-size: 1.2em;
+  }
+  .article h1:first-child {
+    font-size: 1.4em;
+  }
+  .article p {
+    text-indent: 1em;
+    line-height: 1.4em;
+    font-size: 1em;
+    margin: .7em 0;
+  }
+  .article pre,
+  .article code {
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .article a,
+  .article a:link,
+  .article a:visited {
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  footer a[ref=nofollow] {
+    display: none!important;
+  }
+  footer #footnote,
+  footer #copyright {
+    text-align: center;
+    float: none;
+    text-indent: 0;
+  }
 }

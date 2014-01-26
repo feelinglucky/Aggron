@@ -77,6 +77,10 @@ body > hr {
     .rounded-corners;
 }
 
+.hidden {
+    display: none!important;
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -390,6 +394,7 @@ footer {
         font-weight: normal;
         background: @gray;
         margin: .5em 2em;
+        overflow-x: auto;
          .rounded-corners;
     }
 
@@ -436,7 +441,8 @@ footer {
         }
     }
 
-    li:hover, li.active {
+    li:hover, li:focus,
+    li.active {
         background: @red;
         opacity: 1;
 
@@ -477,4 +483,115 @@ footer {
     margin: 2em 0 1em 0;
 }
 
+
+@media only screen and (max-width: 900px) {
+    header {
+        margin-top: @top/3;
+    }
+
+    .p {
+        text-indent: 1em;
+        line-height: 1.4em;
+        font-size: 1em;
+        margin: .7em 0;
+    }
+
+
+    .about {
+        padding: .5em 0;
+        margin: 1em 0;
+
+        p {
+            .p;
+        }
+    }
+
+    .blog,
+    .projects,
+    .resources {
+        p {
+            .p;
+        }
+
+        ul {
+            margin: 0;
+        }
+    }
+
+    .body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .blog {
+        .latest,
+        .categories {
+            margin-top: @top/3;
+            width: 100%;
+            float: none;
+
+            ul {
+                margin: .5em 0;
+            }
+        }
+    }
+
+    .resources {
+        li {
+            float: none;
+            width: 100%;
+        }
+    }
+
+    .search {
+        padding: 0;
+
+        p {
+            text-indent: 0;
+        }
+    }
+
+    .article {
+        font-size: 18px;
+        .body;
+
+        .wrap-all {
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-size: 1.2em;
+        }
+
+        h1:first-child {
+            font-size: 1.4em;
+        }
+
+        p {
+            .p;
+        }
+
+        pre, code {
+            margin: 0;
+            .wrap-all;
+        }
+
+        a, a:link, a:visited {
+            .wrap-all;
+        }
+    }
+
+    footer {
+        a[ref=nofollow] {
+            .hidden;
+        }
+
+        #footnote, #copyright {
+            text-align: center;
+            float: none;
+            text-indent: 0;
+        }
+    }
+}
 
