@@ -49,7 +49,7 @@ body > hr {
   display: block;
   padding: .3em 1em;
   cursor: pointer;
-  font: 17px "Lora", "STSong", "NSimSun", serif;
+  font: 16px "Lora", "STSong", "NSimSun", serif;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -74,7 +74,7 @@ input[type=text] {
   border: 1px solid #eeeeee;
   background: #ffffff;
   padding: .3em .5em;
-  font: 17px "Lora", "STSong", "NSimSun", serif;
+  font: 16px "Lora", "STSong", "NSimSun", serif;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -111,7 +111,7 @@ strong {
   color: #880000;
 }
 body {
-  font: 17px "Lora", "STSong", "NSimSun", serif;
+  font: 16px "Lora", "STSong", "NSimSun", serif;
   line-height: 1.7em;
   color: #38342b;
   background: #fafafa;
@@ -289,7 +289,7 @@ footer #copyright {
   display: block;
   padding: .3em 1em;
   cursor: pointer;
-  font: 17px "Lora", "STSong", "NSimSun", serif;
+  font: 16px "Lora", "STSong", "NSimSun", serif;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

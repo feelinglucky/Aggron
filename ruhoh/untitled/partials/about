@@ -1,7 +1,13 @@
 <section class="about">
     <div class="body">
-        <p><img alt="我的照片"
-                src="{{data.server.file}}/2012_10_15/1350271758.png" /></p>
+        <p>
+            <img alt="我的照片"
+                src="{{data.server.file}}/2014_02_07/1391752852.png" />
+            <!--
+                src="{{data.server.file}}/2012_10_15/1350271758.png" />
+            -->
+        </p>
+
         <p>Hi~，我叫「明城」也叫「手气不错」或者洋气的英文名「feelinglucky」，同
             时这也是我的 <a href="{{data.author.github}}">GitHub</a>
             、 <a href="{{data.author.twitter}}">Twitter</a>、<a href="{{data.author.instagram}}">Instagram</a>等服务的用户名。
