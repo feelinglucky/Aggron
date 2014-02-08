@@ -358,7 +358,7 @@ footer #copyright {
   color: #5a564d;
   text-align: right;
 }
-.article p > img {
+.article p img {
   margin: 0 auto;
   border: 1px solid #eeeeee;
   padding: .5em;

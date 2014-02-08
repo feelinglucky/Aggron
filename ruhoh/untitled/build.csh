@@ -1,6 +1,6 @@
 #!/bin/csh
 
-set  css_file = "stylesheets/styles.css"
+set  css_file = "media/styles.css"
 set less_file = "media/styles.less"
 
 if ( -f $css_file ) then

@@ -8,7 +8,8 @@
         <p><img title="读知乎" alt="" src="http://files.gracecode.com/2013_07_12/1373599938@320.png" /></p>
         -->
         <p>随时随地获得「知乎」每日最新精选条目。官方网站：<a href="http://z.ihu.im/">http://z.ihu.im/</a> [<a href="http://www.gracecode.com/posts/izhihu-launched.html">发布说明</a>]</p>
-		<p>NOTE：因为没有得到「知乎」官方的许可，这款应用长期无法在国内市场上架，因此暂停开发。应用的源代码参见：
+		<p>NOTE：因为没有得到「知乎」官方的许可，这款应用长期无法在国内市场上架，因此暂停开发。
+        <br /> 应用的源代码参见：
             <a href="https://github.com/feelinglucky/iZhihu">https://github.com/feelinglucky/iZhihu</a>。</p>
         </li>
 
