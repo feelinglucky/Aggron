@@ -150,21 +150,33 @@ header #logo a:hover {
   text-decoration: none;
 }
 footer {
+  border-top: 5px solid #880000;
   background-color: #38342b;
   clear: both;
   overflow: hidden;
   padding: 1em 5em;
   color: #fafafa;
+  margin-top: 5em;
 }
 footer a:link,
 footer a:hover,
 footer a:visited {
+  color: #fafafa;
   text-decoration: none;
   border: none;
+  background: #880000;
+  padding: 0 .2em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 footer a[ref=nofollow] {
   font-size: .8em;
   color: #eeeeee;
+  border: none;
+  background: none;
 }
 footer #footnote {
   float: left;
@@ -201,6 +213,18 @@ footer #copyright {
   margin: .5em 0;
   line-height: 1.7em;
   text-indent: 2em;
+}
+.about kbd {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: .3em .5em;
+  font-size: small;
+  background: #880000;
+  color: #fafafa;
+  opacity: .75;
 }
 [class^="icon-"] {
   margin-right: .3em;

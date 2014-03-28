@@ -171,20 +171,28 @@ header {
 }
 
 footer {
+    border-top: 5px solid @red;
 	background-color: @black;
     clear: both;
     overflow: hidden;
     padding: 1em 5em;
     color: @white;
+    margin-top: 5em;
 
     a:link, a:hover, a:visited {
+        color: @white;
         text-decoration: none;
-        border: none;
+        border: none; 
+        background: @red;
+        padding: 0 .2em;
+        .rounded-corners(3px);
     }
 
     a[ref=nofollow] {
         font-size: .8em;
         color: @gray;
+        border: none; 
+        background: none;
     }
 
     #footnote {
@@ -221,6 +229,15 @@ footer {
 
     p {
         .p
+    }
+
+    kbd {
+        .rounded-corners(3px);
+        padding: .3em .5em;
+        font-size: small;
+        background: @red;
+        color: @white;
+        opacity: .75;
     }
 }
 

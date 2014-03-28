@@ -2,18 +2,18 @@
 <footer>
     <div id="copyright">
         <p>
-            Proudly powered by
-            <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh</a>!
+            <a href="https://mos.meituan.com/r/71f9f5e918" rel="nofollow" title="推荐使用美团云主机">美团云主机</a>
             <br />
+            Proudly powered by <a href="http://ruhoh.com/" title="Ruhoh Offical Homepage">Ruhoh!</a>
             <!--
             <a href="{{data.urls}}/rss.xml">
                 <img src="http://feeds.feedburner.com/~fc/gracecode" alt="rss count" />
             </a> 
-            -->
             <a href="http://www.apple.com/getamac/" title="Get a Mac" ref="nofollow"> 
                 <img src="http://files.gracecode.com/2012_10_15/1350272062.png" 
                     alt="Get a Mac" /> 
             </a>
+            -->
         </p>
     </div> 
 
@@ -21,7 +21,7 @@
         <p>
             &copy; 2007 - 2014 {{data.title}} 
             <!-- <a href="{{data.urls}}/rss.xml">rss</a> -->
-            <a href="http://rss.gracecode.com" />RSS</a>
+            <a href="http://rss.gracecode.com" />(RSS订阅)</a>
         </p>
         <p>
             <a href="http://www.miibeian.gov.cn" 

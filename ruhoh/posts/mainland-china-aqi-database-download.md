@@ -27,4 +27,11 @@ categories:
 
 最后，[提供SQLite 数据库打包（bzip 格式）下载](https://code.google.com/p/gracecode/downloads/detail?name=aqi-20130326.sqlite.bz2)。PS，[题图出处在这里](http://www.chinafile.com/taxi-drivers-china-have-highest-pm25-air-pollutant-exposure)，其实图片没有看起来那么美…
 
+-- 
+
+##### 2014年03月12日更新
+
+最新的 Sqlite 数据文件以及说明可以到这里查看 [http://www.gracecode.com/projects/aqi.html](http://www.gracecode.com/projects/aqi.html)。
+
+
 `-- EOF --`
