@@ -6,7 +6,12 @@ categories:
     - Android
 ---
 
-**更新：因为诸多因素，「读知乎」for Android 暂停开发，同时也不保证能够正常读取「知乎」条目，在这里我表示遗憾和抱歉。**
+NOTE：因为没有得到「知乎」官方的许可，这款应用长期无法在国内市场上架，因此暂停开发。 
+同时也不保证能够正常读取「知乎」条目，在这里我表示遗憾和抱歉。
+
+同时开放源代码，参见：[https://github.com/feelinglucky/iZhihu](https://github.com/feelinglucky/iZhihu) 。
+
+--
 
 慢慢的从刷「微博」的习惯改成了刷「知乎」，相对比而言我觉得这比在「微博」上更有意义。
 
@@ -57,8 +62,8 @@ PS，有关源代码方面。本来是想计划开放源代码的，但由于知
 
 下面是「读知乎」的下载渠道：
 
-* Google Play https://play.google.com/store/apps/details?id=com.gracecode.iZhihu
-* 国内的镜像 http://app.xiaomi.com/detail/35288
+* Google Play <del>https://play.google.com/store/apps/details?id=com.gracecode.iZhihu</del>
+* 国内的镜像 <del>http://app.xiaomi.com/detail/35288</del>
 
 `-- EOF --`
 
