@@ -17,7 +17,7 @@
             </em> 。其实两个名字都一样没啥特别的，说到底是因为我实在给它不了个非常酷的
             名字，而使用繁体其实是为了「看起来更有内涵些」。</p>
 
-        <p>噢，对了！如果您想联系我，可以发我邮件 <kbd>echo bHVja3lAZ3JhY2Vjb2RlLmNvbQo= | base64 -D</kbd>
+        <p>噢，对了！如果您想联系我，可以发我邮件 <kbd>echo bHVja3lAZ3JhY2Vjb2RlLmNvbQo= | base64 --decode</kbd>
 <!-- <img alt="email" src="{{data.server.file}}/2012_10_15/1350272009.png" /> --> 。</p>
     </div>
 </section>

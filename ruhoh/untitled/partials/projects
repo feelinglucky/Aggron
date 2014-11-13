@@ -3,18 +3,25 @@
         <h2 id="toc_0"><i class="icon-beaker"></i>项目&amp;工具</h2>
         <ul>
             <li>
+                <h3 id="toc_8">
+<i class="icon-ok"></i>
+                    <a href="/projects/rain.html">聆雨 for Android</a></h3>
+                <p>有时候有没有觉得您想专注下，但是却被周边的噪音打扰？或者您想休息下，却在飞机或者其他嘈杂的环境中无法入睡？那么，或许您可以试试这款应用！</p>
+            </li>
+            <li>
                 <h3 id="toc_7">
-                    <a href="http://www.gracecode.com/projects/aqi.html">中国大陆重点城市空气质量（AQI）历史数据</a></h3>
+<i class="icon-ok"></i>
+                    <a href="/projects/aqi.html">中国大陆重点城市空气质量（AQI）历史数据</a></h3>
                 <p>提供从 2001 年至今的中国大陆重点城市空气质量（AQI）历史数据，SQLite
                     数据文件打包下载。<a
                         href="{{data.urls}}/posts/mainland-china-aqi-database-download.html">[发布说明]</a></p>
             </li>
             <li>
-                <h3 id="toc_1"> <i class="icon-ok"></i> 读知乎 for Android（暂停更新）</h3>
+                <h3 id="toc_1">读知乎 for Android（暂停更新）</h3>
                 <!--
         <p><img title="读知乎" alt="" src="http://files.gracecode.com/2013_07_12/1373599938@320.png" /></p>
         -->
-        <p>随时随地获得「知乎」每日最新精选条目。官方网站：<a href="http://z.ihu.im/">http://z.ihu.im/</a> [<a href="http://www.gracecode.com/posts/izhihu-launched.html">发布说明</a>]</p>
+        <p>随时随地获得「知乎」每日最新精选条目。官方网站：<a href="http://z.ihu.im/">http://z.ihu.im/</a> [<a href="/posts/izhihu-launched.html">发布说明</a>]</p>
         <p>NOTE：因为没有得到「知乎」官方的许可，这款应用长期无法在国内市场上架，因此暂停开发。
             <br /> 应用的源代码参见：
             <a href="https://github.com/feelinglucky/iZhihu">https://github.com/feelinglucky/iZhihu</a>。</p>
