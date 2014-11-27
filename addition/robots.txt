@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Sitemap:  /sitemap.html
 Disallow: /admin/
+Disallow: /wp-admin/
 Disallow: /cert/
 Disallow: /images/
 Disallow: /upload/
