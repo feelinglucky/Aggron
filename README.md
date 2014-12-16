@@ -2,6 +2,8 @@
 
 ![Blog Logo](http://www.gracecode.com/usr/themes/untitled/images/wu@128x128.png)
 
+### 再见！Aggron 项目，感谢两年多的陪伴。这个项目不再继续了，因为本人已经切换回 Typecho 平台。Ruhoh 是个非常好的静态博客平台，尤其适合单纯的文本编辑和发布，如果有机会我还是会继续使用的。 ###
+
 「无标题文档」，Gracecode.com 的静态博客源代码，使用 Ruhoh 构建。
 
 ## 更新历史
